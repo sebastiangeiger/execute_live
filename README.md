@@ -1,5 +1,7 @@
 #execute_live
 
+![Demo](https://raw.github.com/sebastiangeiger/execute_live/master/screencast.gif)
+
 `execute_live` is an alternative for executing long running external commands.
 It is aimed to be used in a similar way as backticks (`` ` ``) or `%x()`.
 The twist to it is that you can pass it a block that gets invoked every time there is new output.
