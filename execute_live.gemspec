@@ -5,6 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Sebastian Geiger"]
   gem.email         = ["sebastian.geiger@gmail.com"]
   gem.description   = "Simple non-blocking external command invocation."
+  gem.summary       = gem.description
   gem.homepage      = "https://github.com/sebastiangeiger/execute_live"
 
   gem.files         = `git ls-files`.split($\)
