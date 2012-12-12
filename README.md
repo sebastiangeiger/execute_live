@@ -4,7 +4,8 @@
 
 `execute_live` is an alternative for executing long running external commands.
 It is aimed to be used in a similar way as backticks (`` ` ``) or `%x()`.
-The twist to it is that you can pass it a block that gets invoked every time there is new output.
+
+`execute_live` provides a way to receive new output immediately and thus let's you write nicer applications.
 
 ##usage
     execute_live("ping -c 3 google.com") do |new_output|
